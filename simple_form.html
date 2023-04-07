@@ -23,13 +23,61 @@
                 <label for="birthday">День рождения</label>
                 <input type="datetime-local" id="birthday">
             </div>
+            <div>
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" value="Male" name="1">
+            </div>
+            <div>
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" value="Female" name="1">
+            </div>
         </fieldset>
         <fieldset>
             <legend>Адресные данные</legend>
+            <div>
+                <label for="city">Город</label>
+                <select name="city">
+                    <option value="">---</option>
+                    <option value="">Kiev</option>
+                    <option value="">Zaporozhie</option>
+                </select>
+            </div>
+            <div>
+                <label for="y">Улица</label>
+                <input type="text" id="y">
+            </div>
+            <div>
+                <label for="nd">Номер дома</label>
+                <input type="text" id="nd">
+            </div>
+            <div>
+                <label for="kv">Квартира</label>
+                <input type="text" id="kv">
+            </div>
         </fieldset>
         <fieldset>
             <legend>Контактные данные</legend>
+            <div>
+                <label for="phone">Мобильный</label>
+                <input type="text" id="phone">
+            </div>
+            <div>
+                <label for="rabch">Рабочий</label>
+                <input type="text" id="rabch">
+            </div>
+            <div>
+                <label for="dom">Домашний</label>
+                <input type="text" id="dom">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email">
+            </div>
         </fieldset>
+        <div>
+            <input type="reset" value="Cancel">
+            <input type="submit" value="OK">
+        </div>
     </form>
 </body>
 </html>
